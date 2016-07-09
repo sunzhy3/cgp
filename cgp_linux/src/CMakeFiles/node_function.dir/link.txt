@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnode_function.a  CMakeFiles/node_function.dir/node_function.cpp.o
+/usr/bin/ranlib libnode_function.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcgp_mat.a  CMakeFiles/cgp_mat.dir/cgp_mat.cpp.o
+/usr/bin/ranlib libcgp_mat.a
