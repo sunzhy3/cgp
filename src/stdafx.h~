@@ -12,6 +12,5 @@
 using namespace cv;
 using namespace std;
 
-#include "traindata.h"
 #include "cgp_mat.h"
 #include "node_function.h"

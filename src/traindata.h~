@@ -1,0 +1,16 @@
+#ifndef TRAINDATA
+#define TRAINDATA
+
+class trainData(){
+
+    public:
+        trainData();
+        int num_inputs;
+        int num_outputs;
+        Mat *input;
+        Mat *output;
+        int getInputsNum();
+        int getOutputNum();
+};
+
+#endif

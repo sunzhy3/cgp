@@ -1,9 +1,7 @@
 #ifndef NODEFUNCTION
 #define NODEFUNCTION
 
-Mat *spilt_rgb(Mat rgb_image, int channel);
-
-dataSet *initialiseDataSetFromFolder(string path, int numInputs, int numOutputs, int numSamples, Mat *inputs, Mat *outputs)
+Mat *spilt_rgb(Mat rgb_image);
 
 double supervisedLearningMcc(struct parameters *params, struct chromosome *chromo, struct dataSet *data);
 

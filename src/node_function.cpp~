@@ -15,7 +15,7 @@ using namespace std;
 #define FLOW_THRESH 10
 
 
-dataSet *initialiseDataSetFromFolder(string path, int numInputs, int numOutputs) {
+dataSet *initialiseDataSetFromFolder(string path, int numInputs, int numOutputs, int numSamples, Mat *inputs, Mat *outputs) {
 
 	int i, j;
 	struct dataSet *data;

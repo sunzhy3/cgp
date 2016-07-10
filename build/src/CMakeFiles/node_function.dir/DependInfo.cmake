@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/szy/cgp_linux/src/node_function.cpp" "/home/szy/cgp_linux/build/src/CMakeFiles/node_function.dir/node_function.cpp.o"
+  "/home/szy/cgp/src/node_function.cpp" "/home/szy/cgp/build/src/CMakeFiles/node_function.dir/node_function.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

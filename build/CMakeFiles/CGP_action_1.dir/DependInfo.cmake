@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/szy/cgp_linux/CGP_action_1.cpp" "/home/szy/cgp_linux/build/CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o"
+  "/home/szy/cgp/CGP_action_1.cpp" "/home/szy/cgp/build/CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/szy/cgp_linux/build/src/CMakeFiles/cgp_mat.dir/DependInfo.cmake"
-  "/home/szy/cgp_linux/build/src/CMakeFiles/node_function.dir/DependInfo.cmake"
+  "/home/szy/cgp/build/src/CMakeFiles/cgp_mat.dir/DependInfo.cmake"
+  "/home/szy/cgp/build/src/CMakeFiles/node_function.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -1993,6 +1993,44 @@ DLL_EXPORT struct dataSet *initialiseDataSetFromArrays(int numInputs, int numOut
 	return data;
 }
 
+DLL_EXPORT struct dataSet *initialiseDataSetFromFolder(string path, int numInputs, int numOutputs, int numSamples, Mat *inputs, Mat *outputs) {
+
+	int i, j;
+	struct dataSet *data;
+
+	/* initialise memory for data structure */
+	data = (struct dataSet*)malloc(sizeof(struct dataSet));
+
+	data->numInputs = numInputs;
+	data->numOutputs = numOutputs;
+	data->numSamples = numSamples;
+
+	data->inputData = (Mat**)malloc(data->numSamples * sizeof(Mat*));
+	data->outputData = (Mat**)malloc(data->numSamples * sizeof(Mat*));
+	
+	string jpg_path, labels_path;
+	vector<string> jpg_images, seg_class;
+	
+	getFiles(jpg_path.assign(path).append("/JPEGImages"), "jpg", jpg_images);
+	getFiles(labels_path.assign(path).append("/SegmentationClass"), "png", seg_class);
+
+	for (i = 0; i < data->numSamples; i++) {
+
+		data->inputData[i] = new Mat[(const int) numInputs];
+		data->outputData[i] = new Mat[(const int) numOutputs];
+
+		for (j = 0; j < data->numInputs; j++) {
+			data->inputData[i][j] = imread(jpg_images[j]).clone();
+		}
+
+		for (j = 0; j < data->numOutputs; j++) {
+			data->outputData[i][j] = imread(seg_class[j]).clone();
+		}
+	}
+
+	return data;
+}
+
 
 /*
 	Initialises data structure and assigns values of given file

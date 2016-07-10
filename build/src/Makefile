@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/szy/cgp_linux
+CMAKE_SOURCE_DIR = /home/szy/cgp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/szy/cgp_linux/build
+CMAKE_BINARY_DIR = /home/szy/cgp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/szy/cgp_linux/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles /home/szy/cgp_linux/build/src/CMakeFiles/progress.marks
-	cd /home/szy/cgp_linux/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles 0
+	cd /home/szy/cgp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles /home/szy/cgp/build/src/CMakeFiles/progress.marks
+	cd /home/szy/cgp/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/szy/cgp/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/szy/cgp_linux/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/szy/cgp/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/szy/cgp/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/szy/cgp_linux/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/szy/cgp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/cgp_mat.dir/rule:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cgp_mat.dir/rule
+	cd /home/szy/cgp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cgp_mat.dir/rule
 .PHONY : src/CMakeFiles/cgp_mat.dir/rule
 
 # Convenience name for target.
@@ -109,12 +109,12 @@ cgp_mat: src/CMakeFiles/cgp_mat.dir/rule
 
 # fast build rule for target.
 cgp_mat/fast:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/build
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/build
 .PHONY : cgp_mat/fast
 
 # Convenience name for target.
 src/CMakeFiles/node_function.dir/rule:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/node_function.dir/rule
+	cd /home/szy/cgp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/node_function.dir/rule
 .PHONY : src/CMakeFiles/node_function.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ node_function: src/CMakeFiles/node_function.dir/rule
 
 # fast build rule for target.
 node_function/fast:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/build
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/build
 .PHONY : node_function/fast
 
 cgp_mat.o: cgp_mat.cpp.o
@@ -131,7 +131,7 @@ cgp_mat.o: cgp_mat.cpp.o
 
 # target to build an object file
 cgp_mat.cpp.o:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.o
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.o
 .PHONY : cgp_mat.cpp.o
 
 cgp_mat.i: cgp_mat.cpp.i
@@ -139,7 +139,7 @@ cgp_mat.i: cgp_mat.cpp.i
 
 # target to preprocess a source file
 cgp_mat.cpp.i:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.i
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.i
 .PHONY : cgp_mat.cpp.i
 
 cgp_mat.s: cgp_mat.cpp.s
@@ -147,7 +147,7 @@ cgp_mat.s: cgp_mat.cpp.s
 
 # target to generate assembly for a file
 cgp_mat.cpp.s:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.s
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.s
 .PHONY : cgp_mat.cpp.s
 
 node_function.o: node_function.cpp.o
@@ -155,7 +155,7 @@ node_function.o: node_function.cpp.o
 
 # target to build an object file
 node_function.cpp.o:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/node_function.cpp.o
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/node_function.cpp.o
 .PHONY : node_function.cpp.o
 
 node_function.i: node_function.cpp.i
@@ -163,7 +163,7 @@ node_function.i: node_function.cpp.i
 
 # target to preprocess a source file
 node_function.cpp.i:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/node_function.cpp.i
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/node_function.cpp.i
 .PHONY : node_function.cpp.i
 
 node_function.s: node_function.cpp.s
@@ -171,7 +171,7 @@ node_function.s: node_function.cpp.s
 
 # target to generate assembly for a file
 node_function.cpp.s:
-	cd /home/szy/cgp_linux/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/node_function.cpp.s
+	cd /home/szy/cgp/build && $(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/node_function.cpp.s
 .PHONY : node_function.cpp.s
 
 # Help Target
@@ -201,6 +201,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/szy/cgp_linux/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/szy/cgp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

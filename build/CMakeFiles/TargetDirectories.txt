@@ -1,3 +1,3 @@
-/home/szy/cgp_linux/build/CMakeFiles/CGP_action_1.dir
-/home/szy/cgp_linux/build/src/CMakeFiles/cgp_mat.dir
-/home/szy/cgp_linux/build/src/CMakeFiles/node_function.dir
+/home/szy/cgp/build/CMakeFiles/CGP_action_1.dir
+/home/szy/cgp/build/src/CMakeFiles/cgp_mat.dir
+/home/szy/cgp/build/src/CMakeFiles/node_function.dir

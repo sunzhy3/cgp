@@ -44,7 +44,7 @@ int main()
 
 	//getTrainingData(file_path, inputs, outputs, num_inputs, num_outputs);
 
-	training_data = initialiseDataSetFromFolder(data_path, num_inputs, num_outputs);
+	training_data = initialiseDataSetFromFolder(data_path, num_inputs, num_outputs, 1, inputs, outputs);
 
 	chromo = runCGP(params, training_data, num_gens);
 

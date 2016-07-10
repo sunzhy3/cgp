@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/szy/cgp_linux/src/cgp_mat.cpp" "/home/szy/cgp_linux/build/src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.o"
+  "/home/szy/cgp/src/cgp_mat.cpp" "/home/szy/cgp/build/src/CMakeFiles/cgp_mat.dir/cgp_mat.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

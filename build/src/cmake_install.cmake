@@ -1,4 +1,4 @@
-# Install script for directory: /home/szy/cgp_linux/src
+# Install script for directory: /home/szy/cgp/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

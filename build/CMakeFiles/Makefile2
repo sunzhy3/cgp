@@ -47,20 +47,20 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/szy/cgp_linux
+CMAKE_SOURCE_DIR = /home/szy/cgp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/szy/cgp_linux/build
+CMAKE_BINARY_DIR = /home/szy/cgp/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/CGP_action_1.dir
 
 # All Build rule for target.
-CMakeFiles/CGP_action_1.dir/all: src/CMakeFiles/node_function.dir/all
 CMakeFiles/CGP_action_1.dir/all: src/CMakeFiles/cgp_mat.dir/all
+CMakeFiles/CGP_action_1.dir/all: src/CMakeFiles/node_function.dir/all
 	$(MAKE) -f CMakeFiles/CGP_action_1.dir/build.make CMakeFiles/CGP_action_1.dir/depend
 	$(MAKE) -f CMakeFiles/CGP_action_1.dir/build.make CMakeFiles/CGP_action_1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp_linux/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp/build/CMakeFiles  1
 	@echo "Built target CGP_action_1"
 .PHONY : CMakeFiles/CGP_action_1.dir/all
 
@@ -70,9 +70,9 @@ all: CMakeFiles/CGP_action_1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CGP_action_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CGP_action_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles 0
 .PHONY : CMakeFiles/CGP_action_1.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ src/preinstall:
 src/CMakeFiles/cgp_mat.dir/all:
 	$(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/depend
 	$(MAKE) -f src/CMakeFiles/cgp_mat.dir/build.make src/CMakeFiles/cgp_mat.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp_linux/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp/build/CMakeFiles  2
 	@echo "Built target cgp_mat"
 .PHONY : src/CMakeFiles/cgp_mat.dir/all
 
@@ -122,9 +122,9 @@ all: src/CMakeFiles/cgp_mat.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/cgp_mat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cgp_mat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/cgp_mat.dir/rule
 
 # Convenience name for target.
@@ -147,7 +147,7 @@ clean: src/CMakeFiles/cgp_mat.dir/clean
 src/CMakeFiles/node_function.dir/all:
 	$(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/depend
 	$(MAKE) -f src/CMakeFiles/node_function.dir/build.make src/CMakeFiles/node_function.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp_linux/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp/build/CMakeFiles  3
 	@echo "Built target node_function"
 .PHONY : src/CMakeFiles/node_function.dir/all
 
@@ -157,9 +157,9 @@ all: src/CMakeFiles/node_function.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/node_function.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/node_function.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp_linux/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/cgp/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/node_function.dir/rule
 
 # Convenience name for target.

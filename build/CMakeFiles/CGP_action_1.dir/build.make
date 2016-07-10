@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/szy/cgp_linux
+CMAKE_SOURCE_DIR = /home/szy/cgp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/szy/cgp_linux/build
+CMAKE_BINARY_DIR = /home/szy/cgp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CGP_action_1.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/CGP_action_1.dir/flags.make
 
 CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o: CMakeFiles/CGP_action_1.dir/flags.make
 CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o: ../CGP_action_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp_linux/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/szy/cgp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o -c /home/szy/cgp_linux/CGP_action_1.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o -c /home/szy/cgp/CGP_action_1.cpp
 
 CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/szy/cgp_linux/CGP_action_1.cpp > CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/szy/cgp/CGP_action_1.cpp > CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.i
 
 CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/szy/cgp_linux/CGP_action_1.cpp -o CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/szy/cgp/CGP_action_1.cpp -o CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.s
 
 CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o.requires:
 .PHONY : CMakeFiles/CGP_action_1.dir/CGP_action_1.cpp.o.requires
@@ -115,6 +115,6 @@ CMakeFiles/CGP_action_1.dir/clean:
 .PHONY : CMakeFiles/CGP_action_1.dir/clean
 
 CMakeFiles/CGP_action_1.dir/depend:
-	cd /home/szy/cgp_linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/szy/cgp_linux /home/szy/cgp_linux /home/szy/cgp_linux/build /home/szy/cgp_linux/build /home/szy/cgp_linux/build/CMakeFiles/CGP_action_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/szy/cgp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/szy/cgp /home/szy/cgp /home/szy/cgp/build /home/szy/cgp/build /home/szy/cgp/build/CMakeFiles/CGP_action_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CGP_action_1.dir/depend
 

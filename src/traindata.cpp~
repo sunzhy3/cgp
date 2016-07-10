@@ -1,0 +1,23 @@
+#include "stdafx.h"
+#include "traindata.h"
+
+using namespace cv;
+using namespace std;
+
+trainData::trainData(){
+    inputs = new Mat[const num_inputs];
+    outputs = new Mat[const num_outputs];
+}
+
+int trainData::getInputsNum(){
+    return num_inputs;
+}
+
+int trainData::getOutputsNum(){
+    return num_outputs;
+}
+
+trainData::~trainData(){
+    delete inputs[];
+    delete outputs[];
+}
